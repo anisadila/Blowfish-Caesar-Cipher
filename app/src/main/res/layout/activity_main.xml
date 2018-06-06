@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Plaintext"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textColor="@color/colorPrimaryDark"/>
         <EditText
             android:id="@+id/plaintext"
@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Key"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textColor="@color/colorPrimaryDark"/>
         <EditText
             android:id="@+id/key"
@@ -44,14 +44,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Plaintext -> Blowfish"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textColor="@color/colorPrimaryDark"
             android:layout_marginBottom="6dp"/>
         <TextView
             android:id="@+id/ciphertext_blowfish"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
+            android:textSize="14sp"
             android:layout_marginLeft="10dp" />
         <TextView
             style="@style/viewline"/>
@@ -59,7 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Blowfish -> Caesar"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textColor="@color/colorPrimaryDark"
             android:layout_marginBottom="6dp"
             android:layout_marginTop="10dp"/>
@@ -67,7 +67,7 @@
             android:id="@+id/ciphertext_caesar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
+            android:textSize="14sp"
             android:layout_marginLeft="10dp"/>
         <TextView
             style="@style/viewline"/>
@@ -82,14 +82,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Caesar -> Blowfish"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textColor="@color/colorPrimaryDark"
             android:layout_marginBottom="6dp"/>
         <TextView
             android:id="@+id/decrypt_caesar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
+            android:textSize="14sp"
             android:layout_marginLeft="10dp"/>
         <TextView
             style="@style/viewline"/>
@@ -97,7 +97,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Blowfish -> Plaintext"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textColor="@color/colorPrimaryDark"
             android:layout_marginBottom="6dp"
             android:layout_marginTop="10dp"/>
@@ -105,7 +105,7 @@
             android:id="@+id/decrypt_blowfish"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
+            android:textSize="14sp"
             android:layout_marginLeft="10dp" />
         <TextView
             style="@style/viewline"/>
